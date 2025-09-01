@@ -1,0 +1,34 @@
+# Python 基础语法
+
+## 0.print用法
+
+###1.输出字符串
+print("hello world")
+###2.输出变量
+name="Alice"
+print(name)
+###3.输出混合型
+print("age:",a,"name:",b)
+###4.参数
+print("2023","10","1",sep="-")
+print(name,end=";")
+###5.格式化
+print(f"name:{name},age:{age}")
+
+## 1. if-else语句使用
+```python
+###if a==b:
+     print(a)
+###if a==b and a==c:
+     print(a) 
+
+##2.其余笔记
+###列表的使用
+  result=[]
+  result.append(word[i])//往列表里加字符
+  return "".join(result)//打印列表
+###交替相加
+  while i<m and j<n :
+    i+=1//python中没有i++
+    j+=1
+       
