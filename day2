@@ -1,0 +1,11 @@
+#python练习day2
+##ASCLL码转化
+  ```python
+  chr(n)
+  ord(char)
+##for循环语句写法
+  for char in str ://字符串中
+##选取字符串中间一段的函数
+  s="Hello World!"
+  s[7:12]\\注意此为左开右闭
+##sunday算法
